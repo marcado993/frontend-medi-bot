@@ -1,4 +1,4 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api'
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://backend-api-medibot.fly.dev/api'
 
 // ── Chat ──────────────────────────────────────────────────────
 export interface SendMessageParams {
